@@ -36,7 +36,7 @@ img {
 
 main {
     width: 50%;
-    margin: 7em auto;
+    margin: 6.5em auto;
     text-align: center;
 }
 
@@ -49,7 +49,12 @@ input {
     margin-top: 30px;
     padding: 1em;
     border-radius: 30px;
-    border: 1px solid rgb(239, 235, 235);
+    border: 1px solid rgb(234, 232, 232);
+}
+
+input:hover {
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, .1);
+    border: 1px solid #e3e3e3;
 }
 
 .btn_container {
@@ -57,19 +62,26 @@ input {
 }
 
 .btn_container button {
-    background: rgb(225, 218, 218);
+    background: rgb(225, 218, 218, 0.5);
     padding: 10px 20px;
     border: none;
+    border-radius: 4px;
     margin-left: 10px;
+    min-width: 55px;
+}
+
+.btn_container button:hover {
+    border: 1px solid #e3e3e3;
 }
 
 .lang_cont {
-    display: flex;
-    justify-content: space-between;
+    display: inline-block;
+    text-align: center;
 }
 
 .lang_cont a {
     text-decoration: none;
+    margin: 0 10px;
 }
 
 a:hover {
