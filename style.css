@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+    margin-left: auto;
+    padding: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+img {
+    height: 18px;
+}
+
+#sign_in {
+    color: #fff;
+    background: #4285f4;
+    padding: 10px 30px;
+    border-radius: 5px;
+    margin-top: -10px;
+}
+
+main {
+    width: 50%;
+    margin: 7em auto;
+    text-align: center;
+}
+
+#logo {
+    height: 95px;
+}
+
+input {
+    width: 80%;
+    margin-top: 30px;
+    padding: 1em;
+    border-radius: 30px;
+    border: 1px solid rgb(239, 235, 235);
+}
+
+.btn_container {
+    margin: 30px 0;
+}
+
+.btn_container button {
+    background: rgb(225, 218, 218);
+    padding: 10px 20px;
+    border: none;
+    margin-left: 10px;
+}
+
+.lang_cont {
+    display: flex;
+    justify-content: space-between;
+}
+
+.lang_cont a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: rgb(225, 218, 218);
+    margin-top: 15em;
+}
+
+.footer_top {
+    padding: 15px;
+}
+
+.footer_buttom {
+    display: flex;
+    padding: 15px;
+    justify-content: space-between;
+    border-top: 1px solid grey;
+}
+
+.footer_buttom .left a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #000;
+}
+
+.footer_buttom .left a:hover {
+    text-decoration: underline;
+}
+
+.footer_buttom .right a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #1a0dab;
+}
+
+.footer_buttom .right a:hover {
+    text-decoration: underline;
+}
+
+#carbon {
+    margin-right: 200px;
+}
